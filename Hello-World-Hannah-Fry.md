@@ -30,3 +30,5 @@
   - ads were tailored based on the personality, e.g. more actioanble for extrovers and more calm and serene for introverts
   - work for the Trump election campaign - targeted people who seemed 'persuadable' with personalised ads, delivered ads dressed as journalism
   - studies suggests that we're actually pretty good in ignoring false advertisement, however a small change in behaviour may still be powerful enough to influence important events
+
+## Justice
