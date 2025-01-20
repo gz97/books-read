@@ -32,3 +32,28 @@
   - studies suggests that we're actually pretty good in ignoring false advertisement, however a small change in behaviour may still be powerful enough to influence important events
 
 ## Justice
+
+- lack of consistency between judges and also between their own decisions
+- using  data in courtrooms is tricky - you need to balance individualised justice and ensure consistency - previous implementation struggled with the balance (US federal law vs Scottish courts)
+- it's tricky to find characteristics on which to base the algorithm, Ernest Burgess used labels, like 'farmboy' to predict recidivism, which doesn't apply to modern city criminals. He was also critised for using irrelevant characteristics and base his algorithm on opinion. However, the predictive power of his model was so strong it became standard to use. It's even used to this day, with some changes.
+- Alorithms used in current judicial systems tend to outperform the judges in several categories, such as reoffending, giving bail, which criminals to release. This resulted in decrease in prison populations and recidivism rates
+  - COMPAS - provides a risk score for each defendant. Code not available to the public. Answers to simplistic questions used to make a decision about multi-faceted cases.COMPAS is used by judges as aid in making a verdict, often replacing their opinion. This results in removing the human-aspect of the case. 
+  - When judges use COMPAS's decision, and deny bail, there is no way of knowing whether the model predicted accurately that the defendant would reoffend. 
+  - COMPAS uses statistical inference to predict whether someone would reoffend. Due to the fact that some populations have higher records of crime, such as men or people of colour, people that share these characteristics are much more likely to be wrongfully classed as 'reoffenders'. The algorithm can perpetuate the inequalities of the past based on mathematical formula. Which is technicall what you would expect, but in reality not an ideal solution. 
+
+> "Until all groups are arrested at the same rate, this kind of bias is a mathermatical certainty."
+
+- Algorithms will show biases of the data given to them. If most pictures of offenders depict black people, then a Google search of an 'offender' will return an array of black people. 
+- Although there is evidence that using algortihms helps, we need to challenge them and the data used for their training.
+- **anchoring effect** - we struggle with putting numerical values to things and find it easier to make comparisons rather than coming up with the value ourselves. This bias is used in advertising, when stores will achor certain values related to products in our mind and use it to increase sales. E.g. (an inflated) limit on the number of items doesn't mean that this item is so popular a limit is needed. Instead it gives us a (wrong) idea of how many items people buy on average, so we end up buying more.
+
+
+## Medicine
+
+- neural networks are used in medicine for image recognition. The difficulty is not only to recognise a picture with an illness in it, but to ignore pictures that don't have any ill tissue. 
+  - the more pictures we feed into the neural network, the more accurate it becomes
+  - the ways to recognise an object might differ significantly from the way humans recognise objects. E.g. wolves were distinguished from dogs if snow was present in the background.
+  - issue in refining an algorithm - trade-off between *sensitivity* and *specificity*. 
+> If you decided to prioritise the complete elimination of false negatives, your algorithm would flag every single breast it saw as suspicious. That would score 100 percent sensitivity (...). It would also mean an awful lot of perfectly healthy people undergoing unnecessary treatment. Or if you decided to prioritise the complete elimination of false positives. Your algorithm would wave everyone through as healthy, thus earning 100 percent score on specificity.
+
+- humans (specifically pathologists) don't tend to have problems with sensitivity (false positives) but they strrugle with sensitivity (false negatives)
