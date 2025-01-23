@@ -54,6 +54,39 @@
   - the more pictures we feed into the neural network, the more accurate it becomes
   - the ways to recognise an object might differ significantly from the way humans recognise objects. E.g. wolves were distinguished from dogs if snow was present in the background.
   - issue in refining an algorithm - trade-off between *sensitivity* and *specificity*. 
-> If you decided to prioritise the complete elimination of false negatives, your algorithm would flag every single breast it saw as suspicious. That would score 100 percent sensitivity (...). It would also mean an awful lot of perfectly healthy people undergoing unnecessary treatment. Or if you decided to prioritise the complete elimination of false positives. Your algorithm would wave everyone through as healthy, thus earning 100 percent score on specificity.
-
+> If you decided to prioritise the complete elimination of false negatives, your algorithm would flag every single breast it saw as suspicious. That would score 100 percent sensitivity (...). It would also mean an awful lot of perfectly healthy people undergoing unnecessary treatment. Or if you decided to prioritise the complete elimination of false positives. Your algorithm would wave everyone through as healthy, thus earning 100 percent score on specificity. (page 88)
+ 
 - humans (specifically pathologists) don't tend to have problems with sensitivity (false positives) but they strrugle with sensitivity (false negatives)
+- algorithms (e.g. neural networks used at CAMELYON16) struggled with false positives (specificity)
+- combining human and machine repsonses gives the best outcomes
+- *The Nun Study* - a longitudinal study which followed nuns throughout their life to investigate the causes of Alzheimer's desease. The nuns were all similar age, had similar live conditions, didn't smoke or drink and didn't have children making them a perfect control group for the experiment
+  - apart from regular data which helped uncover some insights, the reserachers also had access to their entry essays to the Sisterhood. 
+  - Researchers uncovered that the language, how articulate the woman was, and sentence complexity used in the essay were a great predictor on the later onset of Alzheimer's desease and decline in cognitive ability
+  - This suggests that subtle hints in our current behaviour can indicate an onset of disease decades later.
+- In many areas of medicine, doctors are good in detecting anomalies in our bodies but not good in predicting how these anomalies develop later on.
+- algorithms in the NL were trained to do that and detected that the best predictor in how the anomaly will develop is by looking at changes in adjacent tissues
+- there are also algorithms that have been successfuly trained to doagnose certain diseases from images or test results. Such as diabetic rethinopathy, which is a preventable illness caused by affected blood vessels in the light-sensitive areas of the eye and which mostly affects people in India. 
+- attempts were made to create an all-encompassing algorithm, called Watson, that can diagnose any disease using patients records, exams and interviews
+  - the projects largely failed
+  - Watson diagnosed certain diseases and a few patients when the doctors didin't, but it was never able to go into mainstream production
+  - Watson struggled with chain of events, a symptom could be caused by an illness, but also could be a result of something else, that was a result of something else. This was very difficult for the algorithm to logically discover
+  - training of Watson was also an issue - experts may take years to learn how to correctly label the data and observations. Does 'cold' mean a temperature or a flu? 
+- DeepMind (Google) - signed a contract with NHS to access their patient data to make an app that would help in the diagnosis of acute kidney injuries
+  - project failed because data wasn't good enough
+  - none of the patients was asked for constent to share their personal data with a private company
+- opening our medical records to algorithms poses some great benefits but also risks
+  - risks - we lose privacy, our records could be accessed by companies and we could be denied insurance, doctors may make assumptions about our lifestyle and prioritise people who don't smoke, eat healthier for surgeries
+  - benefits - better prevention, data for algorithm to train on, developing algorithms that can diagnose faster and more accurately, automation and faster access to healthcare
+- DNA testing, such as 23andMe - the long-term goal of the company was to collect DNA rather than sell testing kits. The information gathered from the tests may be harmful to individuals in the long-term. For example, in the US people who tested their DNA for Parkinson's or Alzheimer's may be denied insurance. In the UK insurers are allowed to take your results for Huntington's desease if the cover is over £500,000
+- If a diagnostic machine capable of recommending treatments for all disease was made, who would it prioritise? The individual, or the population?
+  - there may be times when it has to choose
+  - would this algorithm prescribe you antibiotics to shorten your illness, or prioritise increasing global antibiotic resistance and not prescribe you anything?
+  - would the algorithm pragmatically refer you for further tests, or would it prioritise long queues and waiting times and send you home without any additional tests?
+  - the machine will prioritise whatever it is told and the goal might be different for a pharmaceutical company, an insurer or a doctor.
+- there is always balance to consider in healthcare algorithms
+  - privacy vs public good
+  - individual vs population
+  - conflicting challenges 
+  - conflicting priorities  
+
+## Cars
