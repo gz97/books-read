@@ -90,3 +90,31 @@
   - conflicting priorities  
 
 ## Cars
+
+- DARPA (US Defence Advanced Research Projects Agency) organised a competition of driverless cars
+  - interest fuelled by roadside bombs, attacks on military vehicles
+  - in first edition in 2004 no cars made it round the track, but in 2005 5 did
+- challenges with building a neural network that can drive a car:
+  - how do you even define a road? A '*smoothest thing in the image*'? - that could be the front of a glass building. An '*object with two vaguely stright borders with lines that are wide apart at the bottom if the image and tamper in towards each other at the top*'? - that description also fits a tree
+  - difficulties with judging distance and scale
+  - overtraining on one type of the terrain in practice can turn dangerous - e.g. algorithm trained on roads with grass may become unoredictable when the grass isn't present (ALVINN)
+- the trick is to gather all information possible with sensors, cameras, lasers and combine them to understand what's going on around
+  - **BUT** which sensor do you trust? They will have contradicting information. For example, laser and camera will see a tumbleweed and treat it as a solid object that you can't pass through, but the radar which passes through the flimsy tumbleweed says there is no object there. Which sensor do you prioritise?
+  - **AND** what if your sensors mismatch the information *and* mismeasure it too? Any GPS location measure or radar is never 100% accurate
+- **Bayes' Theorem** comes to the rescue
+  - it offers a systematic way to update your belief in a hypothesis on the basis of the evidence
+  - you'll never be 100% certain, but it allows you to make a best guess from the information available
+  - the sensors' information will add more information and aid the car in making the decision as to what is more likely happening around it and which decision is most likely to bring a positive outcome
+- however, what should a car do in the case of a crash?
+  - save the driver or the pedestrian?
+  - save one driver or many pedestrians?
+- roads are unpredictable and humans break many subtle rules while driving
+  - what decision should a car make? Can or will it mount a pavemen to let an ambulance pass? 
+- currently self-driving cars are geo-fenced to small areas where they are trained to drive safely
+- we currently have assisted cars, with cruise control 
+  - we still have to pay full attention to be able to take over at any moment. Which we don't do.
+  - It also takes us longer to snap back into the sitation after not being in control than if we were fully in control of the car from the start
+  - in the same time, being able to switch off in the self-driving car is part of the appeal
+  - our abilities decline or are never developed if we always rely on the car itself to drive us
+
+## Crime
