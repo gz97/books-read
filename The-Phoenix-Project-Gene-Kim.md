@@ -1,4 +1,4 @@
-![alt text](image.png)
+![alt text](https://github.com/gz97/books-read/blob/main/Images/image.png)
 
 ## Summary
 The book introduces Bill, who is thrown into the position of VP of IT in a manufacturing company. The IT department is in chaos and managing it is nearly impossible. Staff is buried in work, but somehow not much work gets done. At least according to everyone else, apart from IT itself. 
