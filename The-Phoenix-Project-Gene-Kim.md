@@ -17,7 +17,7 @@ Bill identified IT work as:
 # The Three Ways
 ## Way 1: Flow/Systems Thinking 
 
-![alt text](image-1.png)
+![alt text](https://github.com/gz97/books-read/blob/main/Images/image-1.png)
 
 -	Emphasis on the performance of the entire system, rather than a specific silo of work or department
 -	Understand the flow of work. Understand what work is, where it comes from, and that it can only go forward
@@ -29,7 +29,7 @@ Bill identified IT work as:
 -	Automation
 
 ## Way 2: Feedback Loops
-![alt text](image-2.png)
+![alt text](https://github.com/gz97/books-read/blob/main/Images/image-2.png)
 
 - Create and facilitate fast feedback from the customers
 - Limit the amount of re-work and fix quality
@@ -41,7 +41,7 @@ Bill identified IT work as:
 - 
 
 ## Way 3: Continual Experimentation and Learning
-![alt text](image-3.png)
+![alt text](https://github.com/gz97/books-read/blob/main/Images/image-3.png)
 
 - Take risks and learn from failure
 - Continuously experiment to improve the process, daily work
