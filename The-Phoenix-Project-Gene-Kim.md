@@ -21,6 +21,7 @@ Bill identified IT work as:
 
 -	Emphasis on the performance of the entire system, rather than a specific silo of work or department
 -	Understand the flow of work. Understand what work is, where it comes from, and that it can only go forward
+    - Know what exactly can help achieve business objectives – projects, security, compliance with regulations etc. It is the outcomes that really matter, not the work you do.
 -	Increase work flow – identify bottlenecks and constraints, decrease WIP
 -	Create quality at each step, from the source onwards
 -	Never allow local optimization to create global degradation – local vs global objectives
@@ -30,14 +31,20 @@ Bill identified IT work as:
 ## Way 2: Feedback Loops
 ![alt text](image-2.png)
 
--	Create and facilitate fast feedback from the customers
--	Understand and monitor internal and external processes and customers
+- Create and facilitate fast feedback from the customers
+- Limit the amount of re-work and fix quality
+- Understand and monitor internal and external processes and customers
+- Create a better cooperation between Development and IT Operations – “shared goals and shared pain”
+- Create the quality at the source by placing the feedback loops as early as possible
+- Make work wait times visible. This will ensure that you're aware of your processes and when they'll be complete, and when new ones can be picked up
+- 
+- 
 
 ## Way 3: Continual Experimentation and Learning
 ![alt text](image-3.png)
 
--	Take risks and learn from failure
--	Continuously experiment to improve the process, daily work
--	Test the system for resilience and security holes
-
-# What is DevOps? 
+- Take risks and learn from failure
+- Continuously experiment to improve the process, daily work
+- Test the system for resilience and security holes
+- Allocating at least 20 percent of Development and IT operations cycles toward non-functional requirements
+- Build and maintain trust
