@@ -118,3 +118,11 @@
   - our abilities decline or are never developed if we always rely on the car itself to drive us
 
 ## Crime
+- Kim Rossmo created a new algorithm for police use
+  - the algorithm discarded all information, apart from the location of the crime
+  - the idea dates back to 1820s to Andre-Michel Guerry who collected crime-location statistics. He discovered the same patterns emerged year-on-year. For example, old always committed more crimes than the young, men more than women. The number of specific types of crime repeated every year too.
+  - balancing two patterns - distance decay (it is less likely to find the offender the further away from the crime scene you go) and buffer zone (a crime-free ring surrounding the offender's home) - Rossmo could sketch out where the perpetrator might live.
+  - the algorithm works best on serial offenders when it has more data points
+  - the algorithm compliments the work of the police, doesn't take proceedings into its own virtual 'hands'. It narrows down the list of suspects and gives a suspected area based on previous crimes. It is also flexible, as it is used for biology and land mine detection
+  - the way the algorithm works is called 'geoprofiling'
+  - 
