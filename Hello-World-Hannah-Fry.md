@@ -125,4 +125,30 @@
   - the algorithm works best on serial offenders when it has more data points
   - the algorithm compliments the work of the police, doesn't take proceedings into its own virtual 'hands'. It narrows down the list of suspects and gives a suspected area based on previous crimes. It is also flexible, as it is used for biology and land mine detection
   - the way the algorithm works is called 'geoprofiling'
-  - 
+- 'Charts of the future' - a term coined in the 90s for maps drawn on brown paper with crayons. Used to plot crime hotspots (e.g. Jack Maple, New York, the 90s)
+  - let Maple to see crime from a perspective never-seen before
+  - let Maple to pin point where crime was a chronic problem
+  - together with Maple, Bill Bratton started targeting small antisocial behaviour instead of big crimes, such as murder or robbery. The presence of the police send a signal that crime wasn't accepted and deterred potential offenders from committing more serious crimes. The definition of 'normal' has also started changing and offensive behaviour was less tolerated.
+  - 'maps of the future' were developed into CompStat, a data-tracking tool used widely by the police in the US. Records of crimes are used to locate hotspots in the cities. 
+  - Hotspots move around in the city, so the question was, can their location be predicted in advance?
+  - Out of many types of crime, burglary is reliable. The time, place and the record of a crime itself provide a rich dataset. Burglars also tend to stick to familiar areas. 'Boost' is a tendency of one area being burgled repeatedly after the first robbery.
+  - These patterns make burglaries similar to earthquakes. Thus, the mathematical formulas and predictions used to locate upcoming earthquakes was used to predict burglaries and other crimes. 
+  - This led to Predictive Policing - **PredPol**
+- PredPol:
+  - the algorithm's goal is to predict, whereas the police aim is to reduce
+  - once you get the predictions from PredPol, what do you do with them?
+    - crime preventing measures are very costly, so it's not a viable option to use them for every potential burglary or crime
+  - alternatively, you can send the officers to the hotspot areas flagged by PredPol
+  - across the UK and the US, the crime rates did indeed drop significantly
+  - however, naturally, if you look for crime, you will find it. "Even if equal value of crime is happening in two places, the police will detect more in the place they were then the one that they weren't.".
+  -  by sending officers to the highligted areas, you risk getting a feedback loop. They find more crime in the hotspot, so more officers are send there, they record even more crime by virtue of just being there, and the algorithm strengthens the prediction of that location being a hotspot, and so on.
+  -  For people who find police presence worrying, such as people of colour, seeing them every day outside their house might cause constant pressure
+  -  you can try to mitigate this, by sending officers to both high- and medium-risk areas
+- HunchLab - another software used to predict crime. It uses all sorts of data. 
+  - Not tied to geogtpahical patterns like PredPol, hence is able to predict more crimes more accurately sometimes
+  - doesn't focus on the *why* 
+  - HunchLab is protected as intellectual property, so we don't know whether it discriminates or not
+- Stategic Subject List (used in Chicago) - it tries to predict which *individuals* will be involved in gun-crime in Chicago as either the perpetrator or the victim. Creates a 'heat list' of people. 
+  - recent findings uncovered that being flagged by the algorithm doesn't actually make a difference to the indiividual's likelihood of being involved in a shooting. But means that they're more likley to be arrested. 
+  - One of the reasons might be that the officers treat the 'heat list' as a list of potential perpectrators only.
+- the need for police algorithms is great, however, the threat of bias and disrimination they pose is beyond prediction at this point in time. 
