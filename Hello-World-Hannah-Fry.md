@@ -151,4 +151,46 @@
 - Stategic Subject List (used in Chicago) - it tries to predict which *individuals* will be involved in gun-crime in Chicago as either the perpetrator or the victim. Creates a 'heat list' of people. 
   - recent findings uncovered that being flagged by the algorithm doesn't actually make a difference to the indiividual's likelihood of being involved in a shooting. But means that they're more likley to be arrested. 
   - One of the reasons might be that the officers treat the 'heat list' as a list of potential perpectrators only.
-- the need for police algorithms is great, however, the threat of bias and disrimination they pose is beyond prediction at this point in time. 
+- the need for police algorithms is great, however, the threat of bias and disrimination they pose is beyond prediction at this point in time.
+- Facial recognition software - more common than ever but also extremely prone to misidentification
+  - while some research, with a relativale small sample size, concluded that chances of having a doppelganger are less and one in a trillion, they are in reality much higher
+  - passport officers failed to spot someone with a fake ID 14% of the time
+  - to get round the issues of facial expression, ageing, etc, the algorithms focus on rigid tissue and bone, such as curve of the eye socket or ridge of your nose
+    - they can be fooled, by family members sharing similar features. Also a special 3D printed mask. 
+    - Hence, while the algorithm is good enough to be used on your phone, it is not suited to be used in offical capacity.
+  - They are also algorithms that use a 2D image of our face, mapping it using maths and statistics. 
+    - These can also be tricked by using funky glasses with disruptive pattern. A specific pattern can also trick the algorithm to mistake your identity for someone else's on purpose.
+  - The algorithms are more accurate with less data. The more faces it is given, the likelihood of misidentification increases. 
+- in some cases, facial recognition algorithms are very useful and have aided in solving many crimes. It is important, though, to not rely on them too heavily and keep in mind the trade-off between privacy and protection.
+- What is our priority? Keeping the crime as low as possible, or individual's right to privacy?
+
+## Art 
+- success comes partly in random, but once something catches on (like a song) its popularity tends to snowball
+  - perceived popularity becomes real popularity - *social proof* phenomenon
+- popularity is used as proxy for quality when we don't have enough information ourselves
+- presence on popularity lists, bestsellers, top lists, etc increases the sales of a product and amplifies the effect
+  - however, if the quality of the product (song/book/etc) is objectively poor, people lose interest eventually
+- Can you spot success in advance? 
+  - Sameet Sreenivasan created a detailed catalogue of film descriptors (tags, for example: father-son relationship, New York, romance, etc) that could show how our taste in films has evolved over time
+  - the analysis uncovered that our interests come in bursts, we explore more of what we've seen. 
+  - novelty scores were calculated for each film, for example if 'New York' was a theme for previously watched films, it got a low novelty score. 
+  - on average, the higher the novelty score the film had, the better it did in the box office. But only to a point. If the novelty score was too high, the film wouldn't do well.
+  - this can help in making a decision whether to back a production of a new film at all, but it's not much help if we want to know the fate of an individual film
+- One discovery suggested that the higher number of edits of the film's Wikipedia page before its release was linked to its bigger success. 
+  - this is interesting, but only shows the success of a film a month before its release, which in many cases in too late as the money has already been spent on production
+- other studies have attempted to predict success using neural networks, but didn't perform well
+  - the real predictor is the reaction of the early audience
+- inherent quality is very difficult to measure, the beauty is in the eye of the beholder
+- when we take popularity and inherent quality out of the equasion, we're left with *similarity*
+  - the focus is put solely on the invidual's preferences
+  - works great for recommendation engines
+- many algorithms that 'create music' in reality mimick and repeat the notes that already exist
+- machines can be creative and even make beautiful art. The question is, what do we consider art?
+  - is it something made by a human?
+  - is it something created out of emotion, feeling?
+
+## Summary and conclusions
+Algorithms are NOT perfect, they make countless mistakes and have real consequences. Sometimes, we trust them unconditionally. 
+But, is there perfect in the world? Why do we strive to make a flawless, all-knowing algorithm?
+Instead of creating algorithms that instruct us and replace human decision making, we should make algorithms that support us while being contestable from the ground up.
+For example, instead of honing on a particular face in a face recognition software, the algorithm could give a set of faces that could match the criteria. Or, instead of calculating the likelihood of recidivism in offenders, the algorithm could also provide its confidence score, to communicate with judges that is can be wrong.
