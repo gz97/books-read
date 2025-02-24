@@ -53,3 +53,115 @@
     - this will fix the rate of interest payable by the company for a long-term period
     - bonds are tradeable, which is appealing to investors
 - the most common bond is a loan of funds by the buyer to the issuer of the bond, in return for regular interest payments up to the termination date of the loan
+
+### Scope of banking activities
+- activities range from basic corporate lending and more complex decuritization and hybrid product trading
+- ALM - mostly concerned with efficient management of banking capital
+- for capital management purposes a bank's business is organised into a 'banking book' and a 'trading book'.
+
+#### Capital
+- equity of the bank
+- cushion which absorbes any unreserved losses that the bank incurs
+  - eating into reserves
+  - freezing divident payments
+  - writedown of equity capital (in extreme cases)
+- as per 'Basel Rules', a bank is required to hold a minimum capital level of 8% against the assets on its book
+-  total capital is comprised of:
+   -  Tier 1 capital (higest quality, core capital)
+      -  equity capital 
+      -  reserves 
+      -  retained earnings
+   - Tier 2 (lower quality, not 'loss absorbing', repayable and shorter term than equity capital)
+     -  preference share issue proceeds
+     -  hybrid capital instruments
+     -  subordinated debt 
+-  quality of the capital is reflected by the mix of tier 1 and tier 2 capital
+- financial strength and quality of a bank is assessed by calculating capital ratios and comparing them with market averages and other benchmarks
+
+#### Banking and trading books
+- Activities for capital management purposes are split between 'the banking book' and 'the trading book'.
+##### *the banking book* 
+-  holds more traditional banking activities , such as commercial banking, loans and deposits. This covers lending to individuals, corporates and other banks. 
+-  The principle is to 'buy and hold', invest in long-term acquisitions, for even up to 30 years. 
+-  Assets and liabilities generate interest rate risk (critical part of Treasury policy and ALM) and credit risk (is set and dictated by the credit policy of the bank). They also generate liquidity (ease with which the bank can transform an asset into cash and ease with which the funds can be raised in the market) risk and term mismatch ('gap') risk (excess or shortage of cash, or fixed rate and floating rate interest liabilities).
+-  All these risks form part of ALM
+-  The central role of financial markets is to enable efficient cash management and interest rate management.
+-  ALM of the banking book will focus on interest rate risk management and hedging and lioquidity management.
+-  Although there is no direct 'market risk', interest rate exposure creates an exposure subjected to interest rate movement in the market, thus the banking book is exposed to market risk.
+##### *the trading book* - 
+- records wholesale market transactions, such as market-making and proprietary trading in bonds and derivatives. 
+- Some of the assets are traded and sold off within a day, so short-term investments. 
+- It employs a 'mark-to-market' approach to record profit and loss (P&L), which is the daily marking of an asset to its market value. 
+- generates market risk, credit risk and liquidity risk. And the need for cash management.
+- much of the activity involves derivative instruments (e.g. futures, swaps and options. ), as opposed to 'cash' products. These can be equity, interest rate, credit, commodity, foreign exchange, weather, and other derivatives. They are known as 'off-balance sheet' instruments as they're recorded off the cash balance sheet.
+- Off-balance-sheet transactions refer to 'contingent liabilities'. as they refer to future exposure contracted now. They represent a liability that might have to be honoured on a future date. 
+
+### Financial statements and ratios
+- fincial statement includes *the balance sheet* and *the P&L account*.
+- assets on the balance sheet should equal the assets on a bank's ALM report, while receipt of revenue and payout of costs during a specified period is recorded in the P&L report or income statement.
+
+#### The balance sheet
+- statement of company's assets and liabilities as determined by accounting rules.
+- snapshot of a particular point in time, and so when produced it is already out of date
+- a number of management information ratios are used when analysing the balance sheet
+- balance sheets often have similar layout, but they'll differ significantly betwween commercial, investment or retail bank
+- There are usually five parts of a balance sheet:
+  - lending and deposits (traditional bank business)
+  - trading assets
+  - Tresury and interbank assets
+  - off-balance-sheet assets
+  - long-term assets, including fixed assets, shares in subsidiary companies, together with equity and Tier 2 capital
+- breakdown of assets and liabilities:
+
+| Assets | Liabilities |
+|-------- | ---------- |
+| Cash | Short-term liabilities |
+| Loans | Deposits |
+| Financial instruments (long) | Financial instruments (short) |
+| Fixed assets | Long-dated debt |
+| Off balance sheet (receivables) | Off balance sheet (liabilities) |
+
+#### Profit and loss report 
+- P&L is the income statement for a bank
+- shows revenues: net interest income, fees and commissions, and trading income. The ratio of the mix will reflect the type of bank
+- revenue is offset by operating (non-interest) expenses, loan loss provisions, trading losses and tax expense
+- more traditional commercial bank will have a higher dependence on interest revenues than an investment bank that engages in large-scale wholesale capital market business 
+
+##### Net interest income
+- the traditional source of revenue for retail banks
+- driven by lending, interest-earning asset volumes and the net yield available on these assets after taking into account the cost of funding
+- despite the main focus on the loan book, ALM will also focus on the bank's investment portfolio (including coupon receipts from money market and bond market assets and dividents from any equity holdings).
+- the cost of funding is a key variable in generating overall NII. 
+- for a retail bank, the cheapest source of funds is deposits, especially non-interest-baring ones (e.g. cheque accounts). Other sources include capital markets (senior debt), wholesale markets, securitized markets and covered bonds.
+- Constrained composition of funding can reduce the activities of the bank significantly
+- bank NII is sensitive to both credit and market risk. NII is sensitive to changes in interest rates and the maturity profile of the balance sheet. 
+  - assets that mature earlier than funding liabilities will gain from rising interest rates
+  - assets that mature later than funding liabilities will gain from lowering interest rates
+  - in a declining or low interest rate environment, banks may experience a negative NII irrespective of their asset-liability maturity profile.
+  - while the investment banks are less sensitive to changes in overall NII expectations due to their lower reliance on NII, their trading book will also be sensitive to changes in interest rates.
+
+##### Fee and commision income
+- fee revenue is generated from the sale and provision of financial services to customers.
+- fees are non-interest income and separate from trading income
+- stable source of revenue
+- not exposed to market risk
+
+##### Trading income
+- comes from capital gain earned from buying and selling financial instruments (cash and derivative (off-balance-sheet) instruments) and can arise from undertaking market-making.
+- Market-making is undertaken to meet client demands and the proprietary business needs of the bank's trading book
+- most volatile form of bank revenue and lon-term gains are no guarantee for future gains due to market corrections or making a wrong bet on financial markets
+- trading activity was measured using the Value-at-Risk methodology, which replaced duration-based risk measures in 1990s.
+
+##### Operating expenses
+- HR costs, premises and infrastructure costs
+- Cost is usually measured as a proportion of revenue and with several ratios
+  - the return on equity (ROE) measure is the most commonly encountered and it is usually part of bank strategy.
+  - the return on assets (ROA) - common measure of performance. 
+    - Formula: current income (interest income + fees) * asset value
+  - both P&L and above measures are calcualtions of absolute values without adjustments for relative risk exposure
+
+##### Provisions
+- some loss on loans and other assets is expected
+- provisions are set aside to cover for these losses
+- they're a charge against the loan revenues
+- the amount of provisioning will vary and the volume of provisions will also be assessed over time
