@@ -78,9 +78,9 @@
 -  quality of the capital is reflected by the mix of tier 1 and tier 2 capital
 - financial strength and quality of a bank is assessed by calculating capital ratios and comparing them with market averages and other benchmarks
 
-#### Banking and trading books
+### Banking and trading books
 - Activities for capital management purposes are split between 'the banking book' and 'the trading book'.
-##### *the banking book* 
+#### *the banking book* 
 -  holds more traditional banking activities , such as commercial banking, loans and deposits. This covers lending to individuals, corporates and other banks. 
 -  The principle is to 'buy and hold', invest in long-term acquisitions, for even up to 30 years. 
 -  Assets and liabilities generate interest rate risk (critical part of Treasury policy and ALM) and credit risk (is set and dictated by the credit policy of the bank). They also generate liquidity (ease with which the bank can transform an asset into cash and ease with which the funds can be raised in the market) risk and term mismatch ('gap') risk (excess or shortage of cash, or fixed rate and floating rate interest liabilities).
@@ -88,7 +88,7 @@
 -  The central role of financial markets is to enable efficient cash management and interest rate management.
 -  ALM of the banking book will focus on interest rate risk management and hedging and lioquidity management.
 -  Although there is no direct 'market risk', interest rate exposure creates an exposure subjected to interest rate movement in the market, thus the banking book is exposed to market risk.
-##### *the trading book* - 
+#### *the trading book* - 
 - records wholesale market transactions, such as market-making and proprietary trading in bonds and derivatives. 
 - Some of the assets are traded and sold off within a day, so short-term investments. 
 - It employs a 'mark-to-market' approach to record profit and loss (P&L), which is the daily marking of an asset to its market value. 
@@ -165,3 +165,70 @@
 - provisions are set aside to cover for these losses
 - they're a charge against the loan revenues
 - the amount of provisioning will vary and the volume of provisions will also be assessed over time
+
+## Chapter 3: The Yield Curve
+
+### Importance of the yield curve
+- tenets of banking - dealing in interest rates and credit risk
+- understanding the behaviour and properties of the yield curve is an essential part of the ALM process
+  - the yield curve captures the current state of term interest rates and also presents the current market expectation of future interest rates
+  - the interest rate gap reflects the state of bank borrowing and lending. Gaps along the term structure are sensitive to changes in the shape and slope of the yield curve
+  - current and future trading strategy (incl. asset allocation and credit policy decision), will impact interest rate risk exposure and therefore will take into account the shape and behaviour of the yield curve
+- the yield curve informs about and indicates the state of a debt capital market. AKA *term structure of interest rates* (albeit it is not correct).
+- analysis and pricing activity revolves around the yield curve
+- it *describes the relationship between a particular yield and its term to maturity*
+  - e.g. plotting bonds against the maturity structure will give us a yield curve
+- government bond yield curve - primary yield curve in any domestic capital market
+- any debt market instrument can be plotted on the yield curve
+
+### Using the yield curve
+- Why use the yield curve?
+  - the yield curve tells us where the bond market is trading now.
+  - it implies the level of trading in the future
+  - a good indiator of the future level of the market
+-  Main uses:
+   - *setting the yield for all debt market instruments* - the yield curve fixes the price of money over the maturity structure
+      - the yields of government bonds from the shortest maturity instrument to the longest set the benchmark for yields for all other debt instruments in the market
+      - e.g. if the government 5-year bond is trading at 5%, all other 5-year bonds will be issued with a yield over 5%. The amount above the 5% is called the spread.
+      - the issuers of bonds, use the yield curve, to price bonds and other debt instruments
+    - *acting as an indicator of future yield levels*
+      - bond market participants use it to determine implications regarding the direction of market interest rates (**most important function**)
+      - corporate financiers analyse the curve as part of their project appraisals
+      - central banks and Treasury analyse it regarding the forward interest rates and inflation levels, to set interest rates
+    - *measuring and comparing returns across the maturity spectrum* 
+      - portfolio managers use the yield curve to assess relative value of investments across the maturity spectrum
+      - the yield curve indicates the returns at different maturity points, hence its importance to fixed interest fund managers
+    - *indicating the relative value between different bonds of similar maturity*
+      - it helps indicate which bonds are cheap or expensive to the curve
+    - *pricing interest rate derivative instruments*
+      - the price of derivatives revolves around the curve
+      - in the short-term: e.g. forward rate agreements are priced off the futures curve, but futures rates reflect the market's view on forward 3-month cash deposit rates
+      - in the long-term: used to price interest rate swaps. And hybrid instruments that incorporate an option feature such as convertibles and callable bonds also reflect current yield curve levels.
+
+### Yield-to-maturity yield curve
+#### Yield curve shapes 
+- yield-to-maturity is the most common yield curve
+  - it is contructed by plotting yield to maturity against term to maturity for a group of bonds of the same class
+  - it has one significant weakness that leads to its inaccuracy: assumption of a constant discount rate for coupons during the bond's life at the redemption yield level (we discount all the cashflows of the bond at one discount rate). For convenience, we assume that the interest rates in the future will be same as they are now.
+  - this creates *reinvestment risk* - risk that when we reinvest each bond coupon as it is paid, the interest rate at which we invest it will not be the same as the redemption yield on the day we bought the bond. Zero-coupon bonds avoid this risk as no coupon is paid during the life of their bond.
+  - hence, zero-coupon yield curve is used in these cases, as the yield-to-maturity curve isn't suitable
+
+### Analysing and interpreting the yield curve
+- yield curve can adopt one of four basic shapes:
+  - *normal or conventional* - yields are at average levels and the curve slopes gently upwards as maturity increases
+  - *upward-sloping or positive or rising* - yields are at historically low levels, with long rates substantially greater than short rates
+  - *downward-sloping or inverted or negative* - yield levels are very high by historical standards, but long-term yields are significantly lower than short rates
+  - *humped* - yields are high with the curve rising to a peak in the medium-term, and then sloping downwards at longer maturities
+- sometimes, it can incorporate a mixture of these shapes
+- the very existence of a yield curve indicates that there is a cost associated with funds of different maturities, otherwise we would observe a flat yield curve
+- investors require different rates of return depending on the maturity of the instrument they are holding
+
+### Theories of the yield curve
+- no one theory can explain the curve, hence the mixture of theories is often used
+
+#### The expectations hypothesis
+- suggests that bondholder expectations determine the course of future interest rates 
+- two versions of this hypothesis:
+  - *local expectations hypothesis* - all bonds of the same class but different in term of maturity, will have the same expected holding period rate of return. So if we hold a bond for 6 months, we'll get the same return no matter what specific bond we buy and irrespective of the term to maturity and yield that the bond has at a time of purchase. The author feels this theory is not always the case. 
+  - *unbiased expectations hypothesis* - current implied forward rates are unbiased estimators of future spot interest rates. It assumes that investors act in a way that eliminates any advantage of holding instruments of a particular maturity. This theory states that the long-term interest rate is a geometric average of expected future short-term rates. Expenctations, or views on the future direction of the market, are a function mainly of the expected rate of inflation. 
+  - 
