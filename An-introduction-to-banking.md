@@ -83,12 +83,12 @@
 #### *the banking book* 
 -  holds more traditional banking activities , such as commercial banking, loans and deposits. This covers lending to individuals, corporates and other banks. 
 -  The principle is to 'buy and hold', invest in long-term acquisitions, for even up to 30 years. 
--  Assets and liabilities generate interest rate risk (critical part of Treasury policy and ALM) and credit risk (is set and dictated by the credit policy of the bank). They also generate liquidity (ease with which the bank can transform an asset into cash and ease with which the funds can be raised in the market) risk and term mismatch ('gap') risk (excess or shortage of cash, or fixed rate and floating rate interest liabilities).
+-  Assets and liabilities generate interest rate risk (critical part of Treasury policy and ALM) and credit risk (is set and dictated by the credit policy of the bank). They also generate liquidity risk (ease with which the bank can transform an asset into cash and ease with which the funds can be raised in the market) and term mismatch ('gap') risk (excess or shortage of cash, or fixed rate and floating rate interest liabilities).
 -  All these risks form part of ALM
 -  The central role of financial markets is to enable efficient cash management and interest rate management.
--  ALM of the banking book will focus on interest rate risk management and hedging and lioquidity management.
+-  ALM of the banking book will focus on interest rate risk management and hedging and liquidity management.
 -  Although there is no direct 'market risk', interest rate exposure creates an exposure subjected to interest rate movement in the market, thus the banking book is exposed to market risk.
-#### *the trading book* - 
+#### *the trading book*  
 - records wholesale market transactions, such as market-making and proprietary trading in bonds and derivatives. 
 - Some of the assets are traded and sold off within a day, so short-term investments. 
 - It employs a 'mark-to-market' approach to record profit and loss (P&L), which is the daily marking of an asset to its market value. 
@@ -149,7 +149,7 @@
 ##### Trading income
 - comes from capital gain earned from buying and selling financial instruments (cash and derivative (off-balance-sheet) instruments) and can arise from undertaking market-making.
 - Market-making is undertaken to meet client demands and the proprietary business needs of the bank's trading book
-- most volatile form of bank revenue and lon-term gains are no guarantee for future gains due to market corrections or making a wrong bet on financial markets
+- most volatile form of bank revenue and long-term gains are no guarantee for future gains due to market corrections or making a wrong bet on financial markets
 - trading activity was measured using the Value-at-Risk methodology, which replaced duration-based risk measures in 1990s.
 
 ##### Operating expenses
@@ -185,12 +185,12 @@
 - Why use the yield curve?
   - the yield curve tells us where the bond market is trading now.
   - it implies the level of trading in the future
-  - a good indiator of the future level of the market
+  - a good indicator of the future level of the market
 -  Main uses:
    - *setting the yield for all debt market instruments* - the yield curve fixes the price of money over the maturity structure
       - the yields of government bonds from the shortest maturity instrument to the longest set the benchmark for yields for all other debt instruments in the market
       - e.g. if the government 5-year bond is trading at 5%, all other 5-year bonds will be issued with a yield over 5%. The amount above the 5% is called the spread.
-      - the issuers of bonds, use the yield curve, to price bonds and other debt instruments
+      - the issuers of bonds use the yield curve to price bonds and other debt instruments
     - *acting as an indicator of future yield levels*
       - bond market participants use it to determine implications regarding the direction of market interest rates (**most important function**)
       - corporate financiers analyse the curve as part of their project appraisals
@@ -230,9 +230,9 @@
 - suggests that bondholder expectations determine the course of future interest rates 
 - two versions of this hypothesis:
   - *local expectations hypothesis* - all bonds of the same class but different in term of maturity, will have the same expected holding period rate of return. So if we hold a bond for 6 months, we'll get the same return no matter what specific bond we buy and irrespective of the term to maturity and yield that the bond has at a time of purchase. The author feels this theory is not always the case. 
-  - *unbiased expectations hypothesis* - current implied forward rates are unbiased estimators of future spot interest rates. It assumes that investors act in a way that eliminates any advantage of holding instruments of a particular maturity. This theory states that the long-term interest rate is a geometric average of expected future short-term rates. Expenctations, or views on the future direction of the market, are a function mainly of the expected rate of inflation. 
+  - *unbiased expectations hypothesis* - current implied forward rates are unbiased estimators of future spot interest rates. It assumes that investors act in a way that eliminates any advantage of holding instruments of a particular maturity. This theory states that the long-term interest rate is a geometric average of expected future short-term rates. Expectations, or views on the future direction of the market, are a function mainly of the expected rate of inflation. 
 - *return-to-maturity* version of the expectations theory states that total return from holding a zero-coupon bond to maturity will be equal to total return that is generated by holding a short-term instruments and continuously rolling it over the same maturity period.
-- *yield-to-maturity* - another version of expecations theory, states that the perdiodic return from holding a zero-coupon bond will be equal to the return from rolling over a series of coupon bonds, but refers to annualised return earned each year rather than total return earned over the life of the bond.   
+- *yield-to-maturity* - another version of expecations theory, states that the periodic return from holding a zero-coupon bond will be equal to the return from rolling over a series of coupon bonds, but refers to annualised return earned each year rather than total return earned over the life of the bond.   
 - local expectations theory is often combined with other theories to form a complete picture of the yield curve
 
 #### Liquidity preference theory
@@ -276,7 +276,7 @@
 
 #### Future views on the yield curve
 - we need to remember that markets are not perfect and frequent anomalies occur that can't be explained by conventional theories
-- it is more realistic to assume that a range of factora contribute to the shape of the curve
+- it is more realistic to assume that a range of factors contribute to the shape of the curve
 - low, upward-sloping curve - taken as a sign of environment of cheap money followed by higher inflation and higher bond yields
 - high downward-sloping curve - taken as a sign of tight credit period followed by falling inflation and lower bond yields
 - inverted yield curves has often preceeded recession
@@ -302,3 +302,67 @@
 
 #### Arithmetic
 116
+
+## Chapter 4: Introduction to trading and hedging
+- if the yield curve is positive, the bank would borrow at the short end and lend at the long end - aka *funding short*
+- alternatively, the bank can roll over its funding at short intervals for a longer period of time - aka *creating a tail*
+  - the tail is an interest rate 'gap' that the bank is exposed to between the short and the long period
+- if the yield curve is negative, the bank will lend at the short end and borrow at the long end - aka *funding long*
+
+### Interest rate hedging tools
+- **hedging** - a risk management strategy of taking a position in one market to offset and balance against the risk adopted by assuming a position in a contrary or opposing market or investment
+
+#### Interest rate futures
+- can be used when hedging against a forward term interest rate gap exposure
+- standardised exchange-traded derivative contracts and represent a forward-starting 90-day time deposit
+- a strip of futures can be used to hedge the term gap
+- the trader buys futures contracts to the value of the exposure and for the term of the gap
+- any change in cash rates should be hedged by offsetting moves in futures prices
+
+##### Description
+- a futures contract is a transaction that fixes the price today for a commodity that will be delivered at some point in the future
+- financial futures fix the price for:  
+  - interest rates
+  - bonds
+  - equities
+  - and so on
+- they have standardised format and trade on recognised exchanges
+- buying a futures contract is quivalent to making a notional (off the books / balance sheet) deposit. Selling such contract is equivalent to borrowing a notional sum.
+- the 3-month interest rate future is the most commonly used instrument for hedging interest rate risk
+- trading futures allows for hedging and speculation through contracts. 
+
+##### Hedging using interest rate futures 
+- purpose of a hedge is to protect the value of a current or anticipated cash market or off-balance sheet position from adverse changes in interest rates
+- the hedger will try to offset the effect of the change in interest rate on the value of his cash position with the change in value of his hedging instrument
+- the loss om the main position should be compensated by a profit on the hedge position
+  - if fall of interest rates is expected, one should buy futures (a long hedge) to offset the decrease
+  - to protect against the rise in rates, the trader will sell futures (short hedge)
+- e.g. a bond trader running a short-dated bond book would hedge their book using short-dated futures rather than the longer dated bond futures contract
+  - it's crucial to calculate the correct number of contracts to use for the hedge
+  - to construct a bond hedge, one must use a strip of contracts ensuring that the maturity date of the bond is covered by the longest dated futures contract
+  - the hedge is calculated by finding the sensitivity cash flow to changes in each of the relevant forward rates.
+ 
+#### Forward rate agreements (FRA)
+- similar concept to interest rate futures
+- off-balance-sheet instruments
+- under FRA, a buyer agrees notionally to borrow and a seller to lend a specified notional amount at a fixed rate for a specified period
+- the contract commences on an agreed future date (the 'fixing date'). On this date, the actual rate is taken and, according to its position versus the original trade rate, the borrower or lender will receive an interest payment on the notional sum equal to the difference between the trade rate and the actual rate 
+- the sum paido ver is present-valued as it is transferred at the start of the notional loan period
+- in hedging an interest rate gap in the cash period, the trader will buy a FRA contract that equals the term gap for a nominal amount equal to their exposure in the cash market. If rates move against them in the cash market, the gain on the FRA should compensate for the loss in the cash trade
+
+##### Definition of a FRA
+- FRA is a contract to borrow or lend a notional cash sum for a period of up to 12 months, starting at any point over the next 12 months, at an agreed rate of interest (the FRA rate).
+- here, the buyer is borrowing the money, while the seller is lending the cash sum. This is opposite to other market instruments, where the buyer is the person lending money.
+- once the contract starts, the buyer (borrower) is protected if there is a rise in interest rates. If there is a fall in interest rates, the buyer must pay the difference between the rate at which the FRA was traded and the actual rate, as a percentage of the notional sum
+  - the buyer may use the FRA to hedge on actual exposure (borrowing of money) or speculating on a rise in interest rates
+- the seller (lender of funds) has a fixed rate of lending funds. If interest rates fall the seller will gain, if there is a rise, the seller will pay.
+  - the seller may may have actual loan of cash to hedge or be a speculator
+- only the difference in interest rates between FRA trade rate and interest rate at maturity results in exchange of money. No exchange of cash at the time of the trade.
+
+##### Interest rate swaps
+- it's an off-balance-sheet agreement between two parties to make periodic interest payments to each other
+- payments are on the predetermined set of dates in the future, based on a notional principal amount
+- one party is the fixed rate payer, the rate agreed at the start of the swap, and the other party is the floating rate payer, the floating rate being determined during the life of the swap by reference to a specific market rate or index   
+- interest rate swap can be used to hedge the fixed rate risk from a loan at a fixed interest rate (e.g. mortgage).
+- the idea is to match the cashflows from the loan with equal and opposite payments in the swap contract, which will hedge the mortgage position 
+p 118
